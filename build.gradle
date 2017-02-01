@@ -30,5 +30,5 @@ dependencies {
     runtime("org.hibernate:hibernate-core:5.2.7.Final"){
         transitive = true
     }
-    runtime group: "org.hibernate", name: "hibernate", version: "5.2.7.Final", transitive: true
+    runtime group: "org.hibernate", name: "hibernate-core", version: "5.2.7.Final", transitive: true
 }
